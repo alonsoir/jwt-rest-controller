@@ -11,6 +11,11 @@
   }
 
   You can use PostMan, curl or just open the code in your favourite IDE and checking the "test-integration" folder. There you can find some Spring Boot Tests to check the app.
+  
+  ## Using Curl
+ 
+  curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data '{"username" : "test@geeksusma.es",   "password": "password"}' http://localhost:8080/login
+  
 
   ### Tech
 
